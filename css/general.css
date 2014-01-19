@@ -10,28 +10,45 @@ body {
 	margin: 0;
 }
 
+.banner {
+	display: none;
+}
+
 img {
 	width: 100%;
 }
 
 .logo {
 	margin: 2%;
-
 }
+
+.banner-logo {
+	display: none;
+}
+
 header {
 	margin: 8px;
 	display: inline-block;
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 3em;
 	color: #34A72F;
 	margin: 0 0;
 	padding-top: 2%;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2.3em;
+	color: #8dce50;
+	text-align: center;
+	margin: 0 0;
 }
 
 p {
 	margin: 8px;
+	text-align: center;
 }
 
 hr.hline_color {
@@ -107,7 +124,12 @@ hr.hline_color {
 .carousel-buttons {
 	position: absolute;
 	z-index: 1000;
+	margin-top: 45%;
+	
+	color: #10B732;
+
 }
+
 
 .carousel [data-state="current"] {
 	z-index: 100;
@@ -131,22 +153,62 @@ footer {
 	color: #167824;	
 }
 
-@media only screen and (min-width: 40.625em) {
-	
-	hr.hline_color {
-		margin-bottom: 3%;
+@media only screen and (min-width: 33.75em) {
+
+	html {
+	min-width: 540px;
+
 	}
 	
-	.description {
-		margin-right: 40%;
-		font-size: 1.1em;
+	.banner {
+		display: block;
+	}
+
+	.logo {
+	margin: 2%;
+	width: 30%;
 	}
 	
-	.video {
-		margin: 8px;
+	header {
+		position: relative;
+		bottom: -80%;
+	}
+
+	h1 {
+	font-size: 3em;
+	text-align: right;
+	position: relative;
+	margin-top: -20%;
+	}	
+
+	h2 {
+	font-size: 2.3em;
+	color: #8dce50;
+	text-align: right;
+	margin: 0 0;
 	}
 	
-	.button {
-		margin-left: 83%;
+}
+
+@media only screen and (min-width: 50em) {
+	
+	h1 {
+	font-size: 3em;
+	text-align: right;
+	position: relative;
+	margin-top: -15%;
+	}
+	
+}
+
+@media only screen and (min-width: 62.5em) {
+	
+	.logo {
+		display: none;
+	}
+	
+	.banner-logo {
+		display: block;
+		width: 10%;
 	}
 }
