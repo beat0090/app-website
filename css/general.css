@@ -2,6 +2,8 @@ html {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	min-width: 230px;
+	background-color: #e5ebdd;
+
 }
 
 body {
@@ -13,11 +15,12 @@ img {
 }
 
 .logo {
-	width: 100px;
+	margin: 2%;
 
 }
 header {
 	margin: 8px;
+	display: inline-block;
 }
 
 h1 {
@@ -88,6 +91,32 @@ hr.hline_color {
 	position:relative;
 	top:1px;
 }
+
+.carousel {
+	position: relative;
+	padding-bottom: 52.6%; /*height divided by width of image will be percentage of padding.*/
+}
+
+.carousel img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.carousel-buttons {
+	position: absolute;
+	z-index: 1000;
+}
+
+.carousel [data-state="current"] {
+	z-index: 100;
+}
+
+.carousel [data-state="incoming"] {
+	z-index: 101;
+}
+
 
 hr.hline_color2 {
 	background:#4CD95A;
