@@ -41,7 +41,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2.3em;
+	font-size: 2em;
 	color: #8dce50;
 	text-align: center;
 	margin: 0 0;
@@ -193,7 +193,7 @@ footer {
 	}
 
 	h1 {
-	font-size: 3em;
+	font-size: 2.6em;
 	text-align: right;
 	position: relative;
 	margin-top: -20%;
@@ -206,7 +206,13 @@ footer {
 	margin: 0 0;
 	}
 	
-		h3 {
+	hr.hline_color {
+		background:#4CD95A;
+		height:4px;
+		margin-top: 5%;
+}
+	
+	h3 {
 		display: none;
 	}
 	
@@ -215,7 +221,17 @@ footer {
 		display: none;
 	}
 	
+	.carousel-buttons {
+		position: absolute;
+		z-index: 1000;
+		margin-top: 49%;
+		margin-left: 2%;
+	
+	}
+	
 }
+
+
 
 @media only screen and (min-width: 48.1875em) {
 	
@@ -303,8 +319,23 @@ footer {
 	margin-top: -15%;
 	}
 	
+	h3 {
+		margin-top: -7%;
+		margin-right: 2%;
+		font-size: 2em;
+		color: #12A520;
+		
+	}
 		h4 {
 		display: none;
+	}
+	
+	.carousel-buttons {
+		position: absolute;
+		z-index: 1000;
+		margin-top: 49%;
+		margin-left: 2%;
+	
 	}
 	
 }
@@ -368,6 +399,14 @@ footer {
 		padding-bottom: 65%;
 	}
 	
+		.carousel-buttons {
+		position: absolute;
+		z-index: 1000;
+		margin-top: 50%;
+		margin-left: 2%;
+	
+	}
+	
 	h3 {
 		display: block;
 		margin: 0 0;
@@ -377,7 +416,7 @@ footer {
 		
 		text-align: left;
 		color: black;
-		font-size: 3.5em;
+		font-size: 3em;
 	}
 	
 	h4 {
@@ -403,7 +442,6 @@ footer {
 		width: 20%;
 		margin-top: -23%;
 		margin-left: 2%;
-		padding-bottom: 11%;
 	}
 	
 		hr.hline_color {
@@ -427,7 +465,7 @@ footer {
 		font-size: 3.3em;
 		font-weight: lighter;
 		
-		margin-top: -7%;
+		margin-top: -1%;
 		margin-left: 15%;;
 		margin-right: 20%;
 	}
@@ -511,7 +549,7 @@ footer {
 		font-size: 3.7em;
 		font-weight: lighter;
 		
-		margin-top: -6%;
+		margin-top: -1%;
 		margin-left: 15%;;
 		margin-right: 20%;
 	}
