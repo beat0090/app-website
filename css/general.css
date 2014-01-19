@@ -143,8 +143,42 @@ hr.hline_color {
 	position: absolute;
 	z-index: 1000;
 	margin-top: 45%;
+	width: 100%;
 	
 	color: #10B732;
+	
+	margin-top: 22%;
+
+}
+
+.next {
+   background: #3ead48;
+   
+   color: #fff;
+   font-size: 10px;
+   
+   padding: 3px 8px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   
+   float: right;
+
+}
+
+.previous {
+   background: #3ead48;
+   
+   color: #fff;
+   font-size: 10px;
+   
+   padding: 3px 8px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   
+   
+
 
 }
 
@@ -224,9 +258,15 @@ footer {
 	.carousel-buttons {
 		position: absolute;
 		z-index: 1000;
-		margin-top: 49%;
-		margin-left: 2%;
+		margin-top: -49;
+	}
 	
+	.next {
+		font-size: 13px;
+	}
+	
+	.previous {
+		font-size: 13px;
 	}
 	
 }
@@ -289,18 +329,29 @@ footer {
 	margin-top: -15%;
 	}
 	
-		h3 {
+	h3 {
 		display: block;
 		
 		text-align: right;
 		color: black;
-		font-size: 1.2em;
+		font-size: 1.6em;
 		font-weight: 500;
+		
+		margin-top: -7%;
+		margin-right: 2%;
 		
 	}
 	
 	h4 {
 		display: none;
+	}
+	
+	.next {
+		font-size: 15px;
+	}
+	
+	.previous {
+		font-size: 15px;
 	}
 	
 }
@@ -333,9 +384,14 @@ footer {
 	.carousel-buttons {
 		position: absolute;
 		z-index: 1000;
-		margin-top: 49%;
-		margin-left: 2%;
+	}
 	
+	.next {
+		font-size: 18px;
+	}
+	
+	.previous {
+		font-size: 18px;
 	}
 	
 }
@@ -402,9 +458,15 @@ footer {
 		.carousel-buttons {
 		position: absolute;
 		z-index: 1000;
-		margin-top: 50%;
-		margin-left: 2%;
 	
+	}
+	
+	.next {
+		font-size: 24px;
+	}
+	
+	.previous {
+		font-size: 24px;
 	}
 	
 	h3 {
@@ -509,10 +571,7 @@ footer {
 	
 		.carousel-buttons {
 		position: absolute;
-		z-index: 1000;
-		margin-top: 50%;
-		margin-left: 2%;
-	
+		z-index: 1000;	
 	}
 	
 		hr.hline_color2 {
@@ -682,10 +741,14 @@ footer {
 	.carousel-buttons {
 		position: absolute;
 		z-index: 1000;
-		margin-top: 50%;
-		margin-left: 2%;
+	}
 	
-		color: #10B732;
+	.next {
+		font-size: 26px;
+	}
+	
+	.previous {
+		font-size: 26px;
 	}
 	
 	hr.hline_color2 {
