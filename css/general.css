@@ -20,6 +20,7 @@ img {
 
 .logo {
 	margin: 2%;
+	display: block;
 }
 
 .banner-logo {
@@ -46,6 +47,14 @@ h2 {
 	margin: 0 0;
 }
 
+h3 {
+	display: none;
+}
+
+h4 {
+	display: none;
+}
+
 p {
 	margin: 8px;
 	text-align: center;
@@ -65,8 +74,16 @@ hr.hline_color {
 }
 
 .button {
-	padding-top: 3%;
-	padding-bottom: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.button2 {
+	display: none;
+}
+
+.button3 {
+	display: none;
 }
 
 .btn {
@@ -188,6 +205,98 @@ footer {
 	margin: 0 0;
 	}
 	
+	h4 {
+		display: none;
+	}
+	
+}
+
+@media only screen and (min-width: 48.1875em) {
+	
+	.logo {
+		padding-top: 0.5%;
+	}
+	
+	h1 {
+		font-size: 3em;
+		text-align: right;
+		position: relative;
+		margin-top: -15%;
+	}
+	
+	h4 {
+		display: block;
+		font-size: 3em;
+		font-weight: lighter;
+		
+		margin-left: 2%;
+		margin-top: -8%;
+		
+	}
+	
+	p {
+		text-align: left;
+		font-size: 1.40em;
+		padding-bottom: 1%;
+		
+		margin-left: 2%;
+		margin-top: -3	%;
+		
+	}
+	
+	h4 {
+		display: none;
+	}
+
+}
+
+@media only screen and (min-width: 48.3125em) {
+	
+	.logo {
+		padding-top: 0.5%;
+	}
+	
+	h1 {
+	font-size: 3em;
+	text-align: right;
+	position: relative;
+	margin-top: -15%;
+	}
+	
+		h3 {
+		display: block;
+		
+		text-align: right;
+		color: black;
+		font-size: 1.2em;
+		font-weight: 500;
+		
+	}
+	
+	h4 {
+		display: none;
+	}
+	
+}
+
+
+@media only screen and (min-width: 48.875em) {
+	
+	.logo {
+		
+	}
+	
+	h1 {
+	font-size: 3em;
+	text-align: right;
+	position: relative;
+	margin-top: -15%;
+	}
+	
+		h4 {
+		display: none;
+	}
+	
 }
 
 @media only screen and (min-width: 50em) {
@@ -197,6 +306,10 @@ footer {
 	text-align: right;
 	position: relative;
 	margin-top: -15%;
+	}
+	
+	h4 {
+		display: none;
 	}
 	
 }
@@ -209,6 +322,250 @@ footer {
 	
 	.banner-logo {
 		display: block;
-		width: 10%;
+		width: 20%;
+		margin-top: -24%;
+		margin-left: 2%;
+		padding-bottom: 7.5%;
+	}
+	
+	h1 {
+		display: none;
+	}
+	
+	h2 {
+		display: none;
+	}
+	
+	
+	hr.hline_color {
+		display: none;
+	}
+	
+	p {
+		text-align: left;
+		margin-right: 30%;
+		font-size: 1.19em;
+		margin-top: -5%;
+	}
+	
+	.button {
+		display: none;
+	}
+	
+	.button2 {
+		display: block;
+		margin-left: 87%;
+		margin-top: -65%;
+		padding-bottom: 65%;
+	}
+	
+	h3 {
+		display: block;
+		margin: 0 0;
+		margin-top: -5%;
+		padding-bottom: 2%;
+		
+		text-align: center;
+		color: black;
+		font-size: 3.5em;
+	}
+	
+	h4 {
+		display: block;
+		
+		margin-top: -3%;
 	}
 }
+
+@media only screen and (min-width: 69.5em) {
+	
+	h1 {
+		display: none;
+	}
+
+	h2 {
+		display: none;
+	}
+	
+		.banner-logo {
+		display: block;
+		width: 20%;
+		margin-top: -23%;
+		margin-left: 2%;
+		padding-bottom: 11%;
+	}
+	
+		hr.hline_color {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 81.25em) {
+	
+	h1 {
+		display: none;
+	}
+	
+	h2 {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 84.6875em) {
+	
+	h1 {
+		display: none;
+	}
+	
+	
+}
+
+@media only screen and (min-width: 104.3125em) {
+	
+	.logo {
+		display: none;
+	}
+	
+	.banner-logo {
+		display: block;
+		width: 20%;
+		margin-top: -23%;
+		margin-left: 2%;
+		padding-bottom: 11%;
+	}
+	
+	h1 {
+		color: white;
+	}
+	
+	h2 {
+		color: white;
+	}
+	
+	
+	hr.hline_color {
+		display: none;
+	}
+	
+	p {
+		text-align: left;
+		font-size: 1.40em;
+		padding-bottom: 1%;
+		
+		margin-top: -4%;
+		margin-right: 20%;
+		margin-left: 15%;
+	}
+	
+	.video {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	
+	.button {
+		display: none;
+	}
+	
+	.button2 {
+		display: none;
+	}
+	
+	.button3 {
+		display: block;
+		
+		margin-left: 15%;
+		position: relative;
+		top: 30px;
+	}
+	
+	.btn {
+		width: 200px;
+		height: 60px;
+		
+		font-size: 25px;
+		text-align: center;
+		
+	}
+	
+	h1 {
+		display: none;
+	}
+	
+	h2 {
+		display: none;
+	}
+
+	h3 {
+		display: block;
+		
+		padding-top: 3%;
+		padding-bottom: 2%;
+		
+		text-align: right;
+		color: black;
+		font-size: 3.5em;
+		font-weight: 500;
+		
+		margin-left: 10%;;
+		margin-right: 15%;
+		
+	}
+	
+	h4 {
+		display: block;
+		font-size: 4em;
+		font-weight: lighter;
+		
+		margin-top: -7%;
+		margin-left: 15%;;
+		margin-right: 20%;
+	}
+	
+	.carousel {
+		margin-right: 15%;
+		margin-left: 15%;
+	}
+	
+	.carousel-buttons {
+		position: absolute;
+		z-index: 1000;
+		margin-top: 50%;
+		margin-left: 2%;
+	
+		color: #10B732;
+	}
+	
+	hr.hline_color2 {
+		background:#4CD95A;
+		height:2px;
+		
+		margin-top: -10%;
+	}
+
+	footer {
+		padding-top: 1%;
+		margin-right: 20%;
+		margin-left: 15%;
+		
+	
+		font-size: 0.80em;
+		color: #167824;	
+}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
