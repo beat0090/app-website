@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Assignment 1: App Promo</title>
+<link href="css/dialog-polyfill.css" rel="stylesheet">
 <link href="css/general.css" rel="stylesheet">
 </head>
 <body>
@@ -24,8 +25,14 @@
 	</div>
 
 	<div class="description">
-		<p><strong><em>Trailblazer</em></strong> is an app specifically designed for park and trail enthusiasts in Canada. The app will allow access to individual parks, including national and provincial, as well as their entire list of trails. <em>Click the video below to preview more information.</em></p>
+		<p><strong><em>Trailblazer</em></strong> is an app specifically designed for park and trail enthusiasts in Canada. The app will allow access to individual parks, including national and provincial, as well as their entire list of trails. <em><a class="btn-open" href="#">Click here to Watch Promotional Video</a></em></p>
 	</div>
+
+	<dialog class="dialogclass">
+	<div class="video"></div>
+	<button class="btn-close">x</button>
+	</dialog>
+	
 
 	<div class="video">
 		<img src="images/video-placeholder.jpg">
@@ -70,6 +77,7 @@
 
 
 <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="js/dialog-polyfill.js"></script>
 <script src="js/main.js"></script>
 
 </body>

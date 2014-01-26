@@ -74,6 +74,45 @@ hr.hline_color {
 	padding-top: 8px;
 }
 
+.dialogclass {
+	width: 230px;
+	height: 300px;
+}
+
+iframe {
+	width: 100%;
+}
+
+dialog {
+	border-radius: 6px;
+	border: 1px solid #333;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	padding: 1em;
+}
+
+dialog::backdrop {
+	background-color: #e5ebdd;
+}
+
+
+.btn-close {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+	border: 2px solid #fff;
+	background-color: #4BB242;
+	color: #fff;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+	font-weight: bold;
+	line-height: 0.6;
+	font-size: 1rem;
+	cursor: pointer;
+	position: absolute;
+	top: -16px;
+	right: -10px;
+}
+
 .button {
 	padding-top: 1%;
 	padding-bottom: 1%;
@@ -234,6 +273,15 @@ footer {
 		position: relative;
 		bottom: -80%;
 	}
+
+.dialogclass {
+	width: 533px;
+	height: 300px;
+}
+
+iframe {
+	width: 100%;
+}
 
 	h1 {
 	font-size: 2.6em;
@@ -417,6 +465,16 @@ footer {
 	h4 {
 		display: none;
 	}
+	
+	.dialogclass {
+	width: 950px;
+	height: 600px;
+}
+
+iframe {
+	width: 100%;
+
+}
 	
 }
 
@@ -628,6 +686,8 @@ footer {
 		font-size: 1.19em;
 		margin-top: -5%;
 	}
+	
+	
 }
 
 @media only screen and (min-width: 84.6875em) {
