@@ -611,7 +611,7 @@ iframe {
 	.button2 {
 		display: block;
 		margin-left: 87%;
-		margin-top: -167%;
+		margin-top: -145%;
 		padding-bottom: 65%;
 	}
 	
@@ -632,7 +632,7 @@ iframe {
 	h3 {
 		display: block;
 		margin: 0 0;
-		margin-top: 100%;
+		margin-top: 80%;
 		padding-bottom: 2%;
 		margin-left: 3%;
 		
@@ -746,13 +746,13 @@ iframe {
 	.button2 {
 		display: block;
 		
-		margin-top: -112%;
+		margin-top: -120%;
 		margin-left: 76%;
 	}
 	
 	h3 {
 		margin-left: 15%;	
-		margin-top: 45%;
+		margin-top: 50%;
 	}
 	
 
@@ -840,6 +840,10 @@ iframe {
 		margin-top: -5%;
 	}
 	
+	.button2 {
+		margin-top: -115%;
+	}
+	
 	.sun {
 		width: 400px;
 		margin-top: -25%;
@@ -854,7 +858,6 @@ iframe {
 	.dipper {
 		width: 1180px;
 		opacity: 0;
-		margin-left:  12%;
 }
 
 	.cloud2 {
