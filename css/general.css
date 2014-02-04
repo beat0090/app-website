@@ -657,11 +657,27 @@ iframe {
 	margin-top: 5%;
 }
 
+.cloud-section {
+	
+}
+	
+.cloud-wrapper {
+	
+}
+
+.cloud-wrapper2 {
+	
+}
+	
 	
 .cloud1 {
 	display: block;
 	width: 30%;
 	margin-left: 5%;
+	
+	-webkit-transform: translateX(0px);
+	-webkit-animation: cloud2-move 7s infinite;
+	-webkit-animation-delay: 1s;
 }
 
 .cloud2 {
@@ -670,8 +686,24 @@ iframe {
 	float: right;
 	margin-right: 3%;
 	margin-top: -5%;
+	
+	
+	-webkit-transform: translateX(0px);
+	-webkit-animation: cloud2-move 5s infinite;
 }
 
+@-webkit-keyframes cloud2-move {
+	0% {
+		-webkit-transform: translateX(0px);
+	}
+	
+	50% {
+		-webkit-transform: translateX(30px);
+	}
+
+	100% {
+		-webkit-transform: translateX(0px);
+	}
 }
 
 @media only screen and (min-width: 69.5em) {
@@ -797,6 +829,7 @@ iframe {
 	
 }
 
+
 	.cloud2 {
 		margin-top: -12%;
 }
@@ -805,7 +838,6 @@ iframe {
 	.dipper {
 		width: 1070px;
 		opacity: 0;
-		margin-left:  7%;
 }
 
 	.cloud2 {
