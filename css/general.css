@@ -253,6 +253,45 @@ footer {
 	color: #167824;	
 }
 
+.sun {
+	width: 300px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-left: 12%;
+}
+
+.cloud1 {
+	display: none;
+}
+
+.cloud2 {
+	display: none;
+}
+
+
+.dipper {
+	width: 370px;
+	margin-left: 6%;
+	opacity: 0;
+}
+
+.js-dipper-animate {
+	-webkit-animation: dipper-fade 1s linear 1 forwards;
+	/* How to apply styles before and after animating. 
+	'forwards' - retains the last computed animation values.
+	animation-fill-mode: forwards; */
+}
+
+@-webkit-keyframes dipper-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1; 
+	}
+}
+
+
 @media only screen and (min-width: 33.75em) {
 
 	html {
@@ -326,8 +365,21 @@ iframe {
 		font-size: 13px;
 	}
 	
+	.sun {
+	width: 340px;
+	margin-left: 25%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
+.dipper {
+	width: 550px;
+	opacity: 0;
+	margin-left:  6%;
+}
+
+	
+}
 
 
 @media only screen and (min-width: 48.1875em) {
@@ -370,6 +422,19 @@ iframe {
 	h4 {
 		display: none;
 	}
+	
+	.sun {
+	width: 340px;
+	margin-left: 25%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.dipper {
+	width: 550px;
+	opacity: 0;
+	margin-left:  20%;
+}
 
 }
 
@@ -411,6 +476,19 @@ iframe {
 		font-size: 15px;
 	}
 	
+	.sun {
+	width: 350px;
+	margin-left: 25%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.dipper {
+	width: 560px;
+	opacity: 0;
+	margin-left:  13%;
+}
+	
 }
 
 
@@ -451,6 +529,8 @@ iframe {
 		font-size: 18px;
 	}
 	
+
+	
 }
 
 @media only screen and (min-width: 50em) {
@@ -475,7 +555,20 @@ iframe {
 	width: 100%;
 
 }
-	
+
+.sun {
+	width: 400px;
+	margin-left: 27%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.dipper {
+	width: 760px;
+	opacity: 0;
+	margin-left:  8%;
+}
+
 }
 
 @media only screen and (min-width: 62.5em) {
@@ -518,7 +611,7 @@ iframe {
 	.button2 {
 		display: block;
 		margin-left: 87%;
-		margin-top: -65%;
+		margin-top: -167%;
 		padding-bottom: 65%;
 	}
 	
@@ -539,7 +632,7 @@ iframe {
 	h3 {
 		display: block;
 		margin: 0 0;
-		margin-top: -5%;
+		margin-top: 100%;
 		padding-bottom: 2%;
 		margin-left: 3%;
 		
@@ -553,6 +646,31 @@ iframe {
 		margin-bottom: 6%;
 		margin-top: 0%;
 	}
+	
+.sun {
+	margin-top: -25%;
+}
+
+.dipper {
+	width: 900px;
+	margin-left: 6%;
+	margin-top: 5%;
+}
+
+	
+.cloud1 {
+	display: block;
+	width: 30%;
+	margin-left: 5%;
+}
+
+.cloud2 {
+	display: block;
+	width: 30%;
+	float: right;
+	margin-right: 3%;
+	margin-top: -5%;
+}
 
 }
 
@@ -576,6 +694,21 @@ iframe {
 		hr.hline_color {
 		display: none;
 	}
+	
+.sun {
+	margin-top: -25%;
+}
+
+.cloud2 {
+	margin-top: -10%;
+}
+
+.dipper {
+	width: 930px;
+	margin-left: 9%;
+	margin-top: 5%;
+}
+
 }
 
 @media only screen and (min-width: 76.5em) {
@@ -613,13 +746,13 @@ iframe {
 	.button2 {
 		display: block;
 		
-		margin-top: -49%;
+		margin-top: -112%;
 		margin-left: 76%;
 	}
 	
 	h3 {
 		margin-left: 15%;	
-		margin-top: -20%;
+		margin-top: 45%;
 	}
 	
 
@@ -657,8 +790,28 @@ iframe {
 		font-size: 0.80em;
 		color: #167824;	
 }
+
+	.sun {
+		width: 450px;
+		margin-top: -25%;
 	
 }
+
+	.cloud2 {
+		margin-top: -12%;
+}
+
+
+	.dipper {
+		width: 1070px;
+		opacity: 0;
+		margin-left:  7%;
+}
+
+	.cloud2 {
+		margin-top: -12%;
+}
+
 
 @media only screen and (min-width: 81.25em) {
 	
@@ -687,6 +840,27 @@ iframe {
 		margin-top: -5%;
 	}
 	
+	.sun {
+		width: 400px;
+		margin-top: -25%;
+	
+}
+
+	.cloud2 {
+		margin-top: -12%;
+}
+
+
+	.dipper {
+		width: 1180px;
+		opacity: 0;
+		margin-left:  12%;
+}
+
+	.cloud2 {
+		margin-top: -16%;
+		width: 22%;
+}
 	
 }
 
@@ -695,6 +869,11 @@ iframe {
 	h1 {
 		display: none;
 	}
+	
+	.sun {
+	width: 500px;
+	
+}
 	
 	
 }
@@ -789,6 +968,7 @@ iframe {
 		
 		margin-left: 10%;;
 		margin-right: 15%;
+		margin-top: -20%;
 		
 	}
 	
@@ -835,6 +1015,20 @@ iframe {
 	
 		font-size: 0.80em;
 		color: #167824;	
+}
+
+.dipper {
+	width: 1300px;
+	margin-right: 10%;
+}
+
+.cloud1 {
+	margin-left: 10%;
+	
+}
+
+.cloud2 {
+	margin-right: 8%;
 }
 
 	
